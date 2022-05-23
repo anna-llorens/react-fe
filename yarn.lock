@@ -2920,7 +2920,7 @@ check-types@^11.1.1:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/check-types/-/check-types-11.1.2.tgz#86a7c12bf5539f6324eb0e70ca8896c0e38f3e2f"
   integrity sha1-hqfBK/VTn2Mk6w5wyoiWwOOPPi8=
 
-chokidar@^3.4.2, chokidar@^3.5.3:
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.2, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha1-HPN8hwe5Mr0a8a4iwEMuKs0ZA70=
@@ -4772,6 +4772,11 @@ immer@^9.0.7:
   version "9.0.14"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/immer/-/immer-9.0.14.tgz#e05b83b63999d26382bb71676c9d827831248a48"
   integrity sha1-4FuDtjmZ0mOCu3FnbJ2CeDEkikg=
+
+immutable@^4.0.0:
+  version "4.0.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/immutable/-/immutable-4.0.0.tgz#b86f78de6adef3608395efb269a91462797e2c23"
+  integrity sha1-uG943mre82CDle+yaakUYnl+LCM=
 
 import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
   version "3.3.0"
@@ -7495,6 +7500,15 @@ sass-loader@^12.3.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
+sass@^1.52.0:
+  version "1.52.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/sass/-/sass-1.52.0.tgz#3dc755ff459858ce7062887181648701f028c4f5"
+  integrity sha1-PcdV/0WYWM5wYohxgWSHAfAoxPU=
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -7706,7 +7720,7 @@ source-list-map@^2.0.0, source-list-map@^2.0.1:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
 
-source-map-js@^1.0.1, source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=

@@ -1,3 +1,6 @@
+.App {
+  text-align: center;
+}
 .app-header {
   display: flex;
   font-size: calc(10px + 2vmin);
@@ -6,7 +9,9 @@
 
 .virstual-list-header {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+  margin-right: 28px;
+  margin-top: 28px;
 }
 
 
