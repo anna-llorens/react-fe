@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { stateOptions, ColourOption, StateOption} from '../docs/data';
-import '../App.css';
-import React, { useEffect, useState } from 'react';
+import { stateOptions, StateOption} from '../docs/data';
+import '../App.scss';
+import { useState } from 'react';
 import { addDelay, asyncLoop } from '../utils/utils';
 
 const VirtualList = () => {
@@ -26,7 +26,7 @@ const getItems = async() => {
 
 
   return   <div className="virtual-list">
-  <nav className='virstual-list-header'>
+  <nav className='back-home-link'>
     <Link to="/">Back Home</Link>
 </nav>
 <main>

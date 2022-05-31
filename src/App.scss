@@ -1,17 +1,37 @@
-.App {
+.app {
   text-align: center;
+  &-title {
+    background: rgb(148, 198, 145); 
+    color: black;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  &-header {
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    justify-content: space-evenly;
+  }
 }
-.app-header {
-  display: flex;
-  font-size: calc(10px + 2vmin);
-  justify-content: space-evenly;
+.about-content {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
-.virstual-list-header {
+.back-home-link {
   display: flex;
   justify-content: flex-end;
   margin-right: 28px;
-  margin-top: 28px;
+  margin-top: 16px;
+}
+
+// Utils 
+.mt-1 {
+  margin-top:1px !important;
+}
+.mt-0 {
+  margin-top:0 !important;
 }
 
 
