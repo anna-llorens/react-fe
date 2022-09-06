@@ -26,6 +26,11 @@
   margin-top: 16px;
 }
 
+.hooks-page {
+  text-align: left;
+  margin-left: 40px;
+}
+
 // Utils 
 .mt-1 {
   margin-top:1px !important;
@@ -38,6 +43,24 @@
 }
 .ml-8 {
   margin-left:8px !important;
+}
+.mt-42 {
+  margin-top:20px !important;
+}
+
+// general app styles 
+button {
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 0.25em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 4px;
+  background-color: #3285a8;
+  color: white;
+}
+button:hover {
+  background-color: #307c85;
 }
 
 

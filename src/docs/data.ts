@@ -84,17 +84,6 @@ export const stateOptions: readonly StateOption[] = [
   { value: 'PR', label: 'Puerto Rico' },
   { value: 'RI', label: 'Rhode Island' },
   { value: 'SC', label: 'South Carolina' },
-  { value: 'SD', label: 'South Dakota' },
-  { value: 'TN', label: 'Tennessee' },
-  { value: 'TX', label: 'Texas' },
-  { value: 'UT', label: 'Utah' },
-  { value: 'VT', label: 'Vermont' },
-  { value: 'VI', label: 'Virgin Islands' },
-  { value: 'VA', label: 'Virginia' },
-  { value: 'WA', label: 'Washington' },
-  { value: 'WV', label: 'West Virginia' },
-  { value: 'WI', label: 'Wisconsin' },
-  { value: 'WY', label: 'Wyoming' },
 ];
 
 export const optionLength = [
