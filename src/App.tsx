@@ -1,6 +1,6 @@
 import './App.scss'; 
 import { Link, Route, Routes } from 'react-router-dom';
-import VirtualList from './components/VirtualList';
+import VirtualList from './pages/VirtualList';
 import About from './pages/About';
 import HooksPage from './pages/Hooks/HooksPage';
 
