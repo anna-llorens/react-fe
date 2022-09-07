@@ -1940,7 +1940,7 @@
     shortid "^2.2.16"
     styled-components "^5.1.1"
 
-"@symphony-ui/uitoolkit-styles@3.4.5":
+"@symphony-ui/uitoolkit-styles@3.4.5", "@symphony-ui/uitoolkit-styles@^3.4.5":
   version "3.4.5"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@symphony-ui/uitoolkit-styles/-/uitoolkit-styles-3.4.5.tgz#60cc1d75e636012f1cf657e880b2f8775b2220f6"
   integrity sha1-YMwddeY2AS8c9lfogLL4d1siIPY=

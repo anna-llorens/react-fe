@@ -10,7 +10,7 @@ export const Header = () =>
   <>
     <nav className='header'>
       <Link to="/">Home</Link>
-      <Link to="/virtual-list">Arrays</Link>
+      <Link to="/virtual-list">Render List of elements</Link>
       <Link to="/react-state-hooks">React state Hooks</Link>
       <Link to="/about">About</Link>
     </nav>
