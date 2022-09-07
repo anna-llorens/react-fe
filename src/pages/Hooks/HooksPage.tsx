@@ -1,11 +1,11 @@
 import Counter from "./Counter";
 
-export default function HooksPage() {
+export const  HooksPage = () => {
   return (<>
-    <h2>React Hooks</h2>
-    <h3 className="mt-42">1. UseState</h3>
+    <h1>React Hooks</h1>
+    <h3 className="mt-20">1. UseState</h3>
     <Counter />
-    <h3 className="mt-42">2. UseEffect</h3>
+    <h3 className="mt-20">2. UseEffect</h3>
   </>
   );
 }

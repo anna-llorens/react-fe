@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom';
 import { stateOptions, StateOption } from '../docs/data';
-import '../App.scss';
 import { useState } from 'react';
 import { addDelay, asyncLoop } from '../utils/utils';
 
@@ -18,22 +16,13 @@ const VirtualList = () => {
     });
   }
 
-  return <div className="virtual-list">
-    <nav className='back-home-link'>
-      <Link to="/">Back Home</Link>
-    </nav>
-    <main>
-      <h3>Virtual list</h3>
+  return <main>
+      <h1>Render async list of elements</h1>
       <button onClick={()=> getItems(100)}>Render list of countries with delay</button>
       <button onClick={()=> getItems(0)}>Render list of countries without delay</button>
       <button onClick={()=> setItems([])}>Hide list</button>
-      <div className='mt-42'>{items.map((item: StateOption, index) => <div key={index}>{item.label}</div>)}</div>
+      <div className='mt-20'>{items.map((item: StateOption, index) => <div key={index}>{item.label}</div>)}</div>
     </main>
-  </div>
 }
-
-
-
-
 
 export default VirtualList;
