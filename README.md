@@ -7,11 +7,20 @@
 - Yarn 1.22+
 
 ## 🚀 Getting started
-In the project directory, you can run:
+Start the React App:
 
+```sh
+> cd app
+> yarn && yarn start    # install dependecies and run the app 
 ```
-yarn && yarn start
+
+Start the Graphql-server:
+
+```sh
+> cd graphql-server
+> yarn && yarn start    # install dependecies and run the app 
 ```
+
 
 ## ✍️ Authors
 
