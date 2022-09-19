@@ -1,0 +1,22 @@
+{"persons": [
+  {
+    "name": "marica",
+    "phone": "123456780",
+    "street": "Street 1 ",
+    "city": "Valencia",
+    "id": "ASDFGHSXDCFVGASDFdfgsdf§1234"
+  },
+  {
+    "name": "Leticia",
+    "phone": "9999",
+    "street": "Street 2 ",
+    "city": "Barcelona",
+    "id": "gcfvhbjnkml45678ibSS"
+  },
+  {
+    "name": "pep",
+    "street": "Street 4 ",
+    "city": "Madrid",
+    "id": "Aghjbknl888gsdf§1234"
+  }
+]}
