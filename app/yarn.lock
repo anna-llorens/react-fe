@@ -19,6 +19,24 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
+"@apollo/client@^3.6.9":
+  version "3.6.9"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@apollo/client/-/client-3.6.9.tgz#ad0ee2e3a3c92dbed4acd6917b6158a492739d94"
+  integrity sha1-rQ7i46PJLb7UrNaRe2FYpJJznZQ=
+  dependencies:
+    "@graphql-typed-document-node/core" "^3.1.1"
+    "@wry/context" "^0.6.0"
+    "@wry/equality" "^0.5.0"
+    "@wry/trie" "^0.3.0"
+    graphql-tag "^2.12.6"
+    hoist-non-react-statics "^3.3.2"
+    optimism "^0.16.1"
+    prop-types "^15.7.2"
+    symbol-observable "^4.0.0"
+    ts-invariant "^0.10.3"
+    tslib "^2.3.0"
+    zen-observable-ts "^1.2.5"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.8.3":
   version "7.16.7"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@babel/code-frame/-/code-frame-7.16.7.tgz#44416b6bd7624b998f5b1af5d470856c40138789"
@@ -1397,6 +1415,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@graphql-typed-document-node/core@^3.1.1":
+  version "3.1.1"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@graphql-typed-document-node/core/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
+  integrity sha1-B214zpmCIljPgT7MHn+kYPp00FI=
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
@@ -2574,6 +2597,27 @@
     "@webassemblyjs/ast" "1.11.1"
     "@xtuc/long" "4.2.2"
 
+"@wry/context@^0.6.0":
+  version "0.6.1"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@wry/context/-/context-0.6.1.tgz#c3c29c0ad622adb00f6a53303c4f965ee06ebeb2"
+  integrity sha1-w8KcCtYirbAPalMwPE+WXuBuvrI=
+  dependencies:
+    tslib "^2.3.0"
+
+"@wry/equality@^0.5.0":
+  version "0.5.3"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@wry/equality/-/equality-0.5.3.tgz#fafebc69561aa2d40340da89fa7dc4b1f6fb7831"
+  integrity sha1-+v68aVYaotQDQNqJ+n3Esfb7eDE=
+  dependencies:
+    tslib "^2.3.0"
+
+"@wry/trie@^0.3.0":
+  version "0.3.2"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@wry/trie/-/trie-0.3.2.tgz#a06f235dc184bd26396ba456711f69f8c35097e6"
+  integrity sha1-oG8jXcGEvSY5a6RWcR9p+MNQl+Y=
+  dependencies:
+    tslib "^2.3.0"
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -2869,6 +2913,14 @@ axe-core@^4.3.5:
   version "4.4.2"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/axe-core/-/axe-core-4.4.2.tgz#dcf7fb6dea866166c3eab33d68208afe4d5f670c"
   integrity sha1-3Pf7beqGYWbD6rM9aCCK/k1fZww=
+
+axios@^0.27.2:
+  version "0.27.2"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/axios/-/axios-0.27.2.tgz#207658cc8621606e586c85db4b41a750e756d972"
+  integrity sha1-IHZYzIYhYG5YbIXbS0GnUOdW2XI=
+  dependencies:
+    follow-redirects "^1.14.9"
+    form-data "^4.0.0"
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -4715,6 +4767,11 @@ follow-redirects@^1.0.0:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/follow-redirects/-/follow-redirects-1.15.0.tgz#06441868281c86d0dda4ad8bdaead2d02dca89d4"
   integrity sha1-BkQYaCgchtDdpK2L2urS0C3KidQ=
 
+follow-redirects@^1.14.9:
+  version "1.15.2"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha1-tGCGQUS6Y/JoEJbydMTlcCbaLBM=
+
 fork-ts-checker-webpack-plugin@^6.5.0:
   version "6.5.2"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.5.2.tgz#4f67183f2f9eb8ba7df7177ce3cf3e75cdafb340"
@@ -4738,6 +4795,15 @@ form-data@^3.0.0:
   version "3.0.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/form-data/-/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
   integrity sha1-69U3kbeDVqma+aMA1CgsTV65dV8=
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
+
+form-data@^4.0.0:
+  version "4.0.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+  integrity sha1-k5Gdrq82HuUpWEubMWZNwSyfpFI=
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
@@ -4940,6 +5006,18 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha1-FH06AG2kyjzhRyjHrvwofDZ9emw=
 
+graphql-tag@^2.12.6:
+  version "2.12.6"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/graphql-tag/-/graphql-tag-2.12.6.tgz#d441a569c1d2537ef10ca3d1633b48725329b5f1"
+  integrity sha1-1EGlacHSU37xDKPRYztIclMptfE=
+  dependencies:
+    tslib "^2.1.0"
+
+graphql@^16.6.0:
+  version "16.6.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
+  integrity sha1-wtz/pGSdsUn2KCr3JsjIPxx8X9s=
+
 gzip-size@^6.0.0:
   version "6.0.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/gzip-size/-/gzip-size-6.0.0.tgz#065367fd50c239c0671cbcbad5be3e2eeb10e462"
@@ -5010,7 +5088,7 @@ history@^5.2.0:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.1:
+hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
@@ -6636,6 +6714,14 @@ open@^8.0.9, open@^8.4.0:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
+
+optimism@^0.16.1:
+  version "0.16.1"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/optimism/-/optimism-0.16.1.tgz#7c8efc1f3179f18307b887e18c15c5b7133f6e7d"
+  integrity sha1-fI78HzF58YMHuIfhjBXFtxM/bn0=
+  dependencies:
+    "@wry/context" "^0.6.0"
+    "@wry/trie" "^0.3.0"
 
 optionator@^0.8.1:
   version "0.8.3"
@@ -8599,6 +8685,11 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
+symbol-observable@^4.0.0:
+  version "4.0.0"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/symbol-observable/-/symbol-observable-4.0.0.tgz#5b425f192279e87f2f9b937ac8540d1984b39205"
+  integrity sha1-W0JfGSJ56H8vm5N6yFQNGYSzkgU=
+
 symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
@@ -8759,6 +8850,13 @@ tryer@^1.0.1:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha1-8shUBoALmw90yfdGW4HqrSQSUvg=
 
+ts-invariant@^0.10.3:
+  version "0.10.3"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/ts-invariant/-/ts-invariant-0.10.3.tgz#3e048ff96e91459ffca01304dbc7f61c1f642f6c"
+  integrity sha1-PgSP+W6RRZ/8oBME28f2HB9kL2w=
+  dependencies:
+    tslib "^2.1.0"
+
 tsconfig-paths@^3.14.1:
   version "3.14.1"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz#ba0734599e8ea36c862798e920bcf163277b137a"
@@ -8774,7 +8872,7 @@ tslib@^1.8.1:
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.3:
+tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0:
   version "2.4.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha1-fOyqfwc85oCgWEeqd76UEJjzbcM=
@@ -9462,3 +9560,15 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=
+
+zen-observable-ts@^1.2.5:
+  version "1.2.5"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/zen-observable-ts/-/zen-observable-ts-1.2.5.tgz#6c6d9ea3d3a842812c6e9519209365a122ba8b58"
+  integrity sha1-bG2eo9OoQoEsbpUZIJNloSK6i1g=
+  dependencies:
+    zen-observable "0.8.15"
+
+zen-observable@0.8.15:
+  version "0.8.15"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/zen-observable/-/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
+  integrity sha1-lkFcUS2OP/2SCv04iWBOMLnqrBU=
